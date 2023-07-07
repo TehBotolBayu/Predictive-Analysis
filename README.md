@@ -191,7 +191,7 @@ Evaluasi model dilakukan guna memeriksa tingkat akurasi yang dimilki oleh tiap m
 **Mean Squared Error**
 MSE = $$\frac{1}{n} \Sigma_{i=1}^n({y}-\hat{y})^2$$ 
 
-$${n}$$ = jumlah dataset
+$$\left({n}\right)$$ = jumlah dataset = jumlah dataset
 $${y}$$ = nilai sebenarnya
 $$\hat{y}$$ = nilai prediksi
 
