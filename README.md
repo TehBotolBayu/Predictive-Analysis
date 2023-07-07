@@ -193,8 +193,10 @@ Evaluasi model dilakukan guna memeriksa tingkat akurasi yang dimilki oleh tiap m
 **Mean Squared Error**
 $$MSE = \frac{1}{n} \Sigma_{i=1}^n({y}-\hat{y})^2$$ 
 
-n = jumlah dataset = jumlah dataset
+n = jumlah dataset
+
 y = nilai sebenarnya
+
 ŷ = nilai prediksi
 
 Berikut adalah tabel yang menampilkan hasil dari mean squared error pada ketiga model berdasarkan data training dan data testing
