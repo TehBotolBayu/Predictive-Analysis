@@ -132,7 +132,9 @@ Dengan demikian berdasarkan grafik scatterplot dan correlation matrix, jika berp
 
 ## Data Preparation
 ### Rekayasa fitur age
+
 ![boxplot](https://github.com/TehBotolBayu/Predictive-Analysis/blob/main/age.png?raw=true)
+
 Untuk mengecilkan interval dari fitur year, fitur year akan diganti dengan fitur age atau umur mobil yang didapat dari hasil 2023 dikurangi tahun pada baris.
 ### Label Encoding fitur kategorik
 Selanjutnya akan dilakukan encoding pada fitur kategori. Dikarenakan pada fitur model terdapat banyak sekali jenis yang berbeda, maka encoding yang dipakai adalah labelencoder. Label encoder merupakan teknik encoding yang menerapkan encoding pada tiap jenis data kategorik dengan mengubah nilai kategorik menjadi nilai numerik mulai dari 0 hingga banyak kategori – 1.
@@ -189,7 +191,7 @@ Boosting algorithm yang dipakai dalam penelitian ini adalah Adaptive Boosting ya
 Evaluasi model dilakukan guna memeriksa tingkat akurasi yang dimilki oleh tiap model. Karena model machine learning merupakan model regresi yang mana memprediksi nilai kontinyu, maka metrik evaluasi yang dipakai adalah MSE atau Mean Squared Error. MSE menghitung jumlah selisih kuadrat rata-rata nilai yang sebenarnya dengan nilai hasil prediksi. Formula dari MSE adalah sebagai berikut
 
 **Mean Squared Error**
-MSE = $$\frac{1}{n} \Sigma_{i=1}^n({y}-\hat{y})^2$$ 
+$$MSE = \frac{1}{n} \Sigma_{i=1}^n({y}-\hat{y})^2$$ 
 
 n = jumlah dataset = jumlah dataset
 y = nilai sebenarnya
